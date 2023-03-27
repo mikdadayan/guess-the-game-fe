@@ -15,7 +15,7 @@ interface Album {
   artistName: string;
 }
 
-const BASE_URL = "http://localhost:5001";
+const BASE_URL = "https://guess-the-artist-api-v.onrender.com";
 
 const Home: React.FC<Props> = ({ isLoggedIn }) => {
   const [isOver, setIsOver] = useState(false);

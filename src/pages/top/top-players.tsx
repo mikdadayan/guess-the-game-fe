@@ -3,7 +3,7 @@ import { baseFetchData } from "../../utils/baseFetch";
 
 import "./top-players.css";
 
-const BASE_URL = "http://localhost:5001";
+const BASE_URL = "https://guess-the-artist-api-v.onrender.com";
 
 interface Player {
   _id: string;
