@@ -37,7 +37,7 @@ const SignupForm: React.FC<SignupProps> = ({ setisLoggedIn }) => {
       } = await response.json();
       localStorage.setItem("token", token);
       setisLoggedIn(true);
-      history(`/home`);
+      history(`/`);
     } catch (error) {
       console.error("Error:", error);
     }

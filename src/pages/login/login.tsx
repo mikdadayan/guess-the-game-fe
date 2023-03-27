@@ -45,7 +45,7 @@ const LoginForm: React.FC<LoginFormProps> = ({ setisLoggedIn }) => {
       } = data;
       localStorage.setItem("token", token);
       setisLoggedIn(true);
-      history(`/home`);
+      history(`/`);
     } catch (error) {
       console.error("Error:", error);
     }
