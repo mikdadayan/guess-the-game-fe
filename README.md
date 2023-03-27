@@ -7,3 +7,6 @@
 3. `npm install`
 4. Clone and run backend locally
 4. `npm start`
+
+
+Live version: https://guess-the-artist.onrender.com/
