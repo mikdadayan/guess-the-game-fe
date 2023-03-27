@@ -26,7 +26,6 @@ const App: FC = () => {
             element={<SignupPage setisLoggedIn={setisLoggedIn} />}
           />
           <Route path="/top-players" element={<TopPlayers />} />
-          <Route path="/home" element={<Home isLoggedIn={isLoggedIn} />} />
           <Route path="/" element={<Home isLoggedIn={isLoggedIn} />} />
         </Routes>
       </BrowserRouter>

@@ -94,7 +94,7 @@ const Home: React.FC<Props> = ({ isLoggedIn }) => {
               <div className="user-name">Game Over</div>
               <button
                 className="artist-button"
-                onClick={() => window.location.replace("/home")}
+                onClick={() => window.location.replace("/")}
               >
                 Start New Game
               </button>
