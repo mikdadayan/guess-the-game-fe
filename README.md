@@ -1,4 +1,4 @@
-# Guess The Artist Front End
+# Guess The Artist's Front End
 
 ### To run this project
 
@@ -9,4 +9,4 @@
 4. `npm start`
 
 
-Live version: https://guess-the-artist.onrender.com/
+Live Version: https://guess-the-artist.onrender.com/
